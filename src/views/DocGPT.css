@@ -1,0 +1,28 @@
+/* src/ChatUI.css */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chat-window {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+}
+
+.message-user {
+    text-align: right;
+}
+
+.message-gpt {
+    text-align: left;
+}
